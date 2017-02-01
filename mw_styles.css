@@ -1,0 +1,46 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: Irene J. Penuelas Barraza
+   Date:
+
+   Filename:  mw_styles.css
+   Supporting Files: none
+
+*/
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#articleheader {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 7px;
+
+}
+
+nav {
+  background-color: rgb(125, 120, 89);
+  line-height: 3em;
+
+}
+nav li {
+  list-style-type: none;
+  color: white;
+  opacity: 0.5;
+}
+nav a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: rgb(131, 121, 36);
+  list-style-image: url(wheelmarker.png);
+  -ms-font-color: yellow;
+  color: rgb(255, 255, 255);
+
+}
